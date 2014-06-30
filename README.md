@@ -20,4 +20,4 @@ The best performance for the Neural Network Model (MATLAB) was observed by setti
 
 Among all the three classification methods used, the Neural Network Classifier performed the best overall and gave the least error rate.
 
-Note: The final output after training and testing for the test dataset are provided in the files named classes\_\*.txt for the respective classifiers (lr, nn, nn_model).
+Note: The final output after training and testing for the test dataset are provided in the files named classes\_\*.txt for the respective classifiers (lr, nn, nn_model). The data has already been loaded in the 'project2_data.mat' file (approx 300 MB).
