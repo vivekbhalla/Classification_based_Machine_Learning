@@ -8,7 +8,7 @@ The training dataset contains approximately 2000 samples for each digit, whereas
 The ground truth is a 10 element row vector in which if the first element value is 1 and all others are zero then it belongs to digit 0 i.e. class 1, similarly if the second element is 1 and others are zero then it belongs to digit 1 i.e. class 2 and so on till digit 9 i.e. class 10.
 The training data is further decomposed and divided into a training and validation dataset. This new training data set is 80% of the original training dataset and the validation dataset is the remaining 20%. 
 
-The training phase calculates the trained weights (train_*.m). These weights are used by the validation dataset to predict the classes, and looking at the Error rate of the validation phase the parameters in the training phase are adjusted to get best results i.e. the least error. Finally after the best results are obtained these weights are used to predict classes for the test dataset and the final error and class outputs of this dataset are calculated and reported (test_*.m). 
+The training phase calculates the trained weights (train\_\*.m). These weights are used by the validation dataset to predict the classes, and looking at the Error rate of the validation phase the parameters in the training phase are adjusted to get best results i.e. the least error. Finally after the best results are obtained these weights are used to predict classes for the test dataset and the final error and class outputs of this dataset are calculated and reported (test_*.m). 
 
 Three different classifiers were used for this project. The first classifier was Logistic Regression using Softmax functions (train_lr.m & test_lr.m). The second classifier used was Neural Network, with Sigmoid activation function for hidden layers and Softmax activation function for output layer (train_nn.m & test_nn.m). The third classification model was implemented by using MATLAB’s Neural Network toolbox (nn_model.m).
  
@@ -20,4 +20,4 @@ The best performance for the Neural Network Model (MATLAB) was observed by setti
 
 Among all the three classification methods used, the Neural Network Classifier performed the best overall and gave the least error rate.
 
-Note: The final output after training and testing for the test dataset are provided in the files named classes_*.txt for the respective classifiers (lr, nn, nn_model).
+Note: The final output after training and testing for the test dataset are provided in the files named classes\_\*.txt for the respective classifiers (lr, nn, nn_model).
